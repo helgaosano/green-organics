@@ -1,8 +1,8 @@
-import React from "react";
-import "../Navbar.css"
-import { NavLink} from 'react-router-dom'
+import React from 'react'
 
-function Navbar(){
+import { NavLink } from 'react-router-dom'
+
+function ProductNav(){
 
     return(
         <div className="navbar">
@@ -16,10 +16,10 @@ function Navbar(){
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/products">Products</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/login">Login</NavLink>
+                    <NavLink to="/categories">Categories</NavLink>
                 </li>
             </ul>  
             </div>
@@ -28,4 +28,4 @@ function Navbar(){
 
 }
 
-export default Navbar;
+export default ProductNav;
