@@ -20,7 +20,7 @@ export const LoginForm = (props) => {
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 {/* <button type="submit"><b>Login</b></button> */}
                 <button className="btn btn-outline-success btn-md m-2" >
-                    <a href='http://localhost:3000/home'>login</a>
+                    <a href='http://localhost:3000/login'>login</a>
                 </button>
             </form>
             <button className="link-btn" onClick={() => props.onFormSwitch('signup')}>Don't have an account? Sign up here.</button>

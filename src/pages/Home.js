@@ -19,7 +19,7 @@ function Home(){
         <button onClick={() => {navigate ('/products')} }  type="button" className="btn btn-success mt-3">Click for More</button> 
         </div>
          
-        <About/>
+        <About />
         </>
   )
 }

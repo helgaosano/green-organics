@@ -1,5 +1,4 @@
 import React, { useEffect, useState} from "react";
-import { Container, Row, Col} from "react-bootstrap";
 import ProductNav from "./components/ProductNav";
 import ProductCard from "./components/ProductCard";
 import './Product.css'
@@ -22,18 +21,13 @@ return (
     <ProductNav />
     </div>
 
-<div className="cardinfo">
-    {/* <Container>
-        <Row> */}
-          <h2>View our available products</h2>
+<div className="container">
+        <h2>View our available products</h2>
+        <div className="cardinfo">
           {products.map((product) => {
-          // <Col xs={12} md={4}className='p-5'>
          return (<ProductCard product={product} key={product.id}/>)
-            
-          // </Col>
           })}
-        {/* </Row>
-    </Container>  */}
+        </div>
     </div>
   </>
 )
