@@ -19,7 +19,7 @@ function ProductNav(){
                     <NavLink to="/products">Products</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/categories">Categories</NavLink>
+                    <NavLink to="/cart">Cart</NavLink>
                 </li>
             </ul>  
             </div>

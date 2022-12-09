@@ -6,6 +6,7 @@ import ProductNav from "../components/ProductNav";
 function Login() {
     
     const [currentForm, setCurrentForm] = useState('login');
+    const [newLogin, setNewLogin] = useState([]);
 
     const toggleForm = (formName) => {
       setCurrentForm(formName);

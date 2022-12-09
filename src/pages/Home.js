@@ -2,14 +2,16 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Login from "../components/Login";
 
 function Home(){
   
     let navigate=useNavigate();
   return (
         <>
+        {/* <Login /> */}
         <Navbar/>
-
+        
         <div className='Home text-center'>
          <p className='text'>
           Freshly produced products.<br/>From small organic farms<br/>to your table.

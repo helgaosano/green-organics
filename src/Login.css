@@ -9,6 +9,9 @@
   margin-right: 28em;
   border-radius: 2em;
 }
+.auth-form-container h2{
+  text-align: center;
+}
 
 .auth-form-container, .login-form {
     display: flex;
