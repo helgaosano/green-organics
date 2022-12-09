@@ -9,7 +9,6 @@ function Home(){
     let navigate=useNavigate();
   return (
         <>
-        {/* <Login /> */}
         <Navbar/>
         
         <div className='Home text-center'>

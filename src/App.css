@@ -27,3 +27,22 @@ button {
   text-align:left;
   font-size: 25px;
 }
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+ /*applying @media rule*/
+
+ @media (max-width: 485px) {
+  .card {
+    transform: scale(1.15);
+    margin: 2.5rem auto;
+  }
+  /* .form {
+    width: 100%;
+    margin: auto;
+  } */
+ 
+}

@@ -1,12 +1,14 @@
 import React from 'react'
 import ProductNav from '../components/ProductNav';
-
+import '../App.css'
 function Cart(){
   
     return (
       <>
       <ProductNav />
-      <h2>View Your Cart</h2>
+      <div className="container">
+      <h2>View your cart</h2>
+      </div>
       </>
     )
   
